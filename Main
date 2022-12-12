@@ -1,0 +1,14 @@
+import java.util.Scanner;
+/**
+ * Project: Word Ladder
+ * A word ladder puzzle is when you have to change one word into another by altering a single letter at each step.
+ *
+ * @Author: Sonith Riem
+ */
+public class Main {
+    public static void main(String[] args) {
+        WordLadder lad = new WordLadder();
+        lad.find("tears","smile");
+    }
+
+}
